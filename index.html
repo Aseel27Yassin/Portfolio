@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio | Aseel Yassin</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__socials">
+        <a href="#"><i class="ri-mail-fill"></i></a>
+        <a href="#"><i class="ri-github-fill"></i></a>
+        <a href="#"><i class="ri-linkedin-fill"></i></a>
+      </div>
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#">A<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span> <i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <li class="link"><a href="#home">Home</a></li>
+            <li class="link"><a href="#about">About</a></li>
+            <li class="link"><a href="#project">Projects</a></li>
+            <li class="link"><a href="#service">Services</a></li>
+            <li class="link"><a href="#skill">Skils</a></li>
+            <li class="link btn"><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/FormalPhoto.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Full Stack Developer</h4>
+          <h1>Aseel Ahmad Yassin</h1>
+          <p>
+            Creative Full stack developer who loves transforming ideas into
+            interactive , meaningful web experiences , from elegant front-end
+            designs to powerful back-end systems, I'm willing to blend
+            creativity with clean, efficient code, to turn vision into reality.
+          </p>
+          <button class="btn">Hire Me Now</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about1.jpg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">Hi There I Am Aseel!</h2>
+        <p>
+          I’m a passionate Full Stack Developer with a strong eye for design and
+          functionality. I specialize in building seamless, responsive, and
+          high-performing web applications that bring ideas to life. With
+          expertise across both front-end and back-end technologies, I take
+          pride in crafting digital experiences that are as engaging as they are
+          efficient.
+        </p>
+        <h4>
+          With a focus on user experience and a commitment to staying updated
+          with the latest industry trends, I'm dedicated to creating web
+          solutions that not only meet but exceed expectations.
+        </h4>
+        <div class="about__btns">
+          <a href="assets/AseelYassin.pdf" download class="download__btn">
+            Download my CV
+          </a>
+          <a href="#"><i class="ri-mail-fill"></i></a>
+          <a href="#"><i class="ri-github-fill"></i></a>
+          <a href="#"><i class="ri-linkedin-fill"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-code-box-fill"></i></span>
+        <div>
+          <h4>Front-End</h4>
+          <p>
+            Building clean, responsive and interactive interfaces that turn
+            ideas into smooth user experiences , making every click feel
+            effortless.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-computer-line"></i></span>
+        <div>
+          <h4>Back-End</h4>
+          <p>
+            Developing secure and efficient systems that power the user
+            experience with speed, stability and ready to grow with strong
+            database that make work easily behind the scenes.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-php-line"></i></span>
+        <div>
+          <h4>Full-Stack</h4>
+          <p>
+            Connecting front-end and back-end into large system ensuring
+            everything works together from design to development to testing.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+      <div class="project__header">
+        <h2 class="section__header">Projects</h2>
+        <div class="project__nav">
+          <button
+            class="btn project__btn mixitup-control-active"
+            data-filter="all"
+          >
+            All
+          </button>
+          <button class="btn project__btn" data-filter=".web">Front-end</button>
+          <button class="btn project__btn" data-filter=".game">Back-end</button>
+          <button class="btn project__btn" data-filter=".design">
+            Full-Stack
+          </button>
+        </div>
+      </div>
+      <div class="project__grid">
+        <div class="project__card mix web">
+          <img src="assets/project1.png" alt="project" />
+        </div>
+        <div class="project__card mix web">
+          <img src="assets/project2.png" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project3.png" alt="project" />
+        </div>
+        <div class="project__card mix game">
+          <img src="assets/project4.png" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project5.png" alt="project" />
+        </div>
+        <div class="project__card mix design">
+          <img src="assets/project6.png" alt="project" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container service__container" id="service">
+      <p class="section__subheader">Services</p>
+      <h2 class="section__header">specializing in</h2>
+      <p class="section__description">
+        Specializing in delivering end to end web development solutions designed
+        to bring ideas ,concepts and solutions that are needed.
+      </p>
+      <div class="service__grid">
+        <div class="service__card">
+          <span><i class="ri-window-fill"></i></span>
+          <h4>Responsive UI/UX Design</h4>
+          <p>
+            Creating visually appealing and user-friendly interfaces that
+            deliver smooth experiences on all devices, with designs built with
+            usability, speed and clarity.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-store-line"></i></span>
+          <h4>E-commerce Solutions</h4>
+          <p>
+            Scalable and conversion-focused online stores that enhance the
+            shopping experience and bring results.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-smartphone-line"></i></span>
+          <h4>API Development & Integration</h4>
+          <p>
+            Designing and integrating powerful APIs that connect systems,
+            automate processes, and enhance functionality, ensuring smooth
+            communication between front-end and back-end.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-fill"></i></span>
+          <h4>Performance & Security</h4>
+          <p>
+            Optimizing websites for speed, scalability and protection ensuring
+            secure data handling, fast loading times and easy for the user
+            experience.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-seo-line"></i></span>
+          <h4>Maintenance & Scalability</h4>
+          <p>
+            Offering continuous support, updates, and improvements to keep the
+            website running smoothly as the business grows.
+          </p>
+        </div>
+        <div class="service__card">
+          <span><i class="ri-share-circle-line"></i></span>
+          <h4>Deployment & Hosting</h4>
+          <p>
+            Handling seamless deployments and optimized server configuration,
+            delivering secure, high performance and secure website in a live
+            production environment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container skills__container" id="skill">
+      <p class="section__subheader">My Skills</p>
+      <h2 class="section__header">Technologies & Tools</h2>
+      <p class="section__description">
+        A blend of creativity and technical expertise — I work with a wide range
+        of technologies to build seamless, scalable, and visually appealing
+        digital experiences.
+      </p>
+
+      <div class="skills__grid">
+        <div class="skill__card">
+          <i class="ri-html5-fill"></i>
+          <h4>HTML5</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-css3-fill"></i>
+          <h4>CSS3</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-javascript-fill"></i>
+          <h4>JavaScript</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-reactjs-fill"></i>
+          <h4>React</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-nodejs-fill"></i>
+          <h4>Node.js</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-database-2-fill"></i>
+          <h4>MySQL</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-php-fill"></i>
+          <h4>PHP / Laravel</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-github-fill"></i>
+          <h4>Git & GitHub</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-terminal-box-fill"></i>
+          <h4>RESTful APIs</h4>
+        </div>
+        <div class="skill__card">
+          <i class="ri-tools-fill"></i>
+          <h4>Deployment</h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <p class="section__subheader">Let's Connect</p>
+      <h2 class="section__header">Get In Touch</h2>
+      <p class="section__description">
+        I'm always open to discussing new projects, creative ideas, or
+        opportunities to collaborate. Feel free to reach out — I’d love to hear
+        from you!
+      </p>
+
+      <div class="contact__info">
+        <div class="contact__card">
+          <i class="ri-mail-fill"></i>
+          <h4>Email</h4>
+          <p>
+            <a href="mailto:youremail@example.com">aseel27yassin@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact__card">
+          <i class="ri-github-fill"></i>
+          <h4>GitHub</h4>
+          <p>
+            <a href="https://github.com/Aseel27Yassin" target="_blank"
+              >aseel27yassin</a
+            >
+          </p>
+        </div>
+        <div class="contact__card">
+          <i class="ri-linkedin-fill"></i>
+          <h4>LinkedIn</h4>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/aseel-yassin-1b3734257/"
+              target="_blank"
+              >Aseel Yassin</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
